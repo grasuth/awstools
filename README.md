@@ -1,4 +1,4 @@
 awstools
 ========
 
-Python tools for AWS management
+Python tools for EC2 and AWS management
