@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 from boto.ec2 import connect_to_region
 import logging
 
-logging.basicConfig(filename='log/snapshot.log',level=logging.DEBUG)
+logging.basicConfig(filename='log/snapshot.log',level=logging.INFO)
 
 parser = ArgumentParser(description='Take and manage EBS snapshots.')
 parser.add_argument('--region', '-r', required=True, dest='region',
