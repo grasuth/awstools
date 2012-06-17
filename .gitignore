@@ -12,6 +12,7 @@ var
 sdist
 develop-eggs
 .installed.cfg
+.Python
 
 # Installer logs
 pip-log.txt
@@ -25,3 +26,9 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# virtualenv
+/env
+
+lib
+include
