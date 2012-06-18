@@ -32,3 +32,5 @@ pip-log.txt
 
 lib
 include
+/log/*
+
